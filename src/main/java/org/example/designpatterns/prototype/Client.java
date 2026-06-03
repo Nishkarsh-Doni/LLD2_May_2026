@@ -64,12 +64,6 @@ public class Client {
         System.out.println("Europe Match: " + europeMatch);
 
 
-
-
-
-
-
-
 //        // Template config for Battle Royale - Erangel
 //        GameConfig erangelTemplate = new GameConfig();
 //        erangelTemplate.setMap("Erangel");
@@ -110,7 +104,5 @@ public class Client {
         // 1. Tight coupling -> I need to know each and every attribute of GameConfig - violates encapsulation
         // 2. Repetitive code
         // 3. Fragile to changes and prone to errors
-
-
     }
 }
