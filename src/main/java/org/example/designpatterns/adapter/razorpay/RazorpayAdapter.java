@@ -13,6 +13,11 @@ import org.example.designpatterns.adapter.BankAPI;
  * Adding this adapter required ZERO changes to PhonePe or BankAPI.
  */
 public class RazorpayAdapter implements BankAPI {
+    private final RazorpayAPI razorpayAPI;
+
+    public RazorpayAdapter(RazorpayAPI razorpayAPI) {
+        this.razorpayAPI = razorpayAPI;
+    }
 
     @Override
     public void addBankAccount(String accountNumber, String holderName) {

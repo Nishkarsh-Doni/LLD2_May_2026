@@ -1,6 +1,11 @@
 package org.example.designpatterns.adapter;
 
 
+import org.example.designpatterns.adapter.razorpay.RazorpayAPI;
+import org.example.designpatterns.adapter.razorpay.RazorpayAdapter;
+import org.example.designpatterns.adapter.yesbank.YesBank;
+import org.example.designpatterns.adapter.yesbank.YesBankAdapter;
+
 /**
  * Client — demonstrates the Adapter Design Pattern.
  *
@@ -20,8 +25,10 @@ public class Client {
 
         // ── Using Yes Bank ──
         System.out.println("--- Yes Bank ---");
-
-
+        YesBank yesBank = new YesBank();
+        BankAPI yesBankApi = new YesBankAdapter(yesBank);
+        PhonePe phonePeWithYesBank = new PhonePe(yesBankApi);
+        phonePeWithYesBank.makePayment(500.0, "ACC-001");
 
         System.out.println();
         System.out.println("════════════════════════════════════════");
@@ -31,6 +38,10 @@ public class Client {
         System.out.println();
 
         // ── Switch to Razorpay — ZERO changes to PhonePe! ──
+        RazorpayAPI razorpay = new RazorpayAPI();
+        BankAPI razorpayBankApi = new RazorpayAdapter(razorpay);
+        PhonePe phonePeWithRazorpay = new PhonePe(razorpayBankApi);
+        phonePeWithRazorpay.makePayment(700.0, "ACC-02");
 
         System.out.println();
         System.out.println("════════════════════════════════════════");
