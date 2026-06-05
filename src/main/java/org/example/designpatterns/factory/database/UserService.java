@@ -13,7 +13,7 @@ public class UserService {
 
     public UserService(Database db) {
         this.db = db;
-        this.dbf = db.createDatabaseFactory();
+        this.dbf = this.db.createDatabaseFactory();
     }
 
     public void createUser(String name, String email) {
