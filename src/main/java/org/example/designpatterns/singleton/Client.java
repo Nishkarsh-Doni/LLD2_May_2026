@@ -8,5 +8,9 @@ public class Client {
 
         System.out.println(db1);
         System.out.println(db2);
+
+        SingletonEnum e1 = SingletonEnum.ABC;
+        SingletonEnum e2 = SingletonEnum.ABC;
+        System.out.println(e1 == e2);
     }
 }

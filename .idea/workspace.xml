@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f051de5-425e-4326-a2ce-464134767a46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/singleton/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/singleton/SingletonDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/singleton/SingletonEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/singleton/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/singleton/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
