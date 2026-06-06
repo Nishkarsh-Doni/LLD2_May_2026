@@ -2,7 +2,7 @@ package org.example.designpatterns.singleton;
 
 //public class SingletonDB {
 //
-//    public static SingletonDB instance;
+//    private static SingletonDB instance;
 //
 //    private SingletonDB() {}
 //
@@ -16,7 +16,7 @@ package org.example.designpatterns.singleton;
 
 public class SingletonDB {
 
-    public static final SingletonDB instance = new SingletonDB();
+    private static final SingletonDB instance = new SingletonDB();
     private SingletonDB(){}
     public static synchronized SingletonDB createInstance(){
         return instance;
