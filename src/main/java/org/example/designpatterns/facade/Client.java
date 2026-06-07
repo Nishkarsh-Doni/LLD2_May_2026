@@ -1,5 +1,7 @@
 package org.example.designpatterns.facade;
 
+import org.example.designpatterns.facade.subsystems.*;
+
 /**
  * Client — demonstrates the Facade Design Pattern.
  *
@@ -21,10 +23,10 @@ public class Client {
         AnalyticsService analytics = new AnalyticsService();
 
         // ── Create Facade — hides all subsystem complexity ──
-
+        OrderFacade orderFacade = new OrderFacade(inventory, payment, notification, logistics, analytics);
 
         // ── Create Controller — knows nothing about subsystems ──
-
+        OrderController orderController = new OrderController(orderFacade);
 
         System.out.println("════════════════════════════════════════");
         System.out.println("  DEMO 1: Facade Pattern");
@@ -33,7 +35,7 @@ public class Client {
         System.out.println();
 
         // ── Place an order — 7 steps, ONE method call ──
-
+        orderController.handlePlaceOrder("Macbook Pro", 200000.0, "alok@gmail.com");
 
         System.out.println();
         System.out.println("════════════════════════════════════════");

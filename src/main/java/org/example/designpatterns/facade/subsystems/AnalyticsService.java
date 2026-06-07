@@ -1,4 +1,4 @@
-package org.example.designpatterns.facade;
+package org.example.designpatterns.facade.subsystems;
 
 /**
  * AnalyticsService — Subsystem class for sales tracking.
