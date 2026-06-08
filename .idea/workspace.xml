@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f051de5-425e-4326-a2ce-464134767a46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/OrderFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/AnalyticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/subsystems/AnalyticsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/subsystems/InventoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/LogisticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/subsystems/LogisticsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/subsystems/NotificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/subsystems/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/decorator/ChocolateCone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/decorator/ChocolateSyrup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/decorator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/decorator/IceCream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/decorator/OrangeCone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/decorator/StrawberryTopping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/decorator/VanillaScoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/decorator/v1/Cone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/decorator/v1/IceCream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/decorator/v1/Topping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/flyweight/Bullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/flyweight/BulletType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/flyweight/BulletTypeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/flyweight/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -45,34 +52,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/aloksingh/Projects/LLD2_May_2026/src/main/java/org/example/designpatterns",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/aloksingh/Projects/LLD2_May_2026/src/main/java/org/example/designpatterns&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/example/designpatterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.designpatterns.facade.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.designpatterns.builder.Client" />
+  <component name="RunManager" selected="Application.org.example.designpatterns.decorator.Client">
+    <configuration name="org.example.designpatterns.adapter.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.designpatterns.adapter.Client" />
       <module name="LLD2_May_2026" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.designpatterns.builder.*" />
+          <option name="PATTERN" value="org.example.designpatterns.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.designpatterns.adapter.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.designpatterns.adapter.Client" />
+    <configuration name="org.example.designpatterns.decorator.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.designpatterns.decorator.Client" />
       <module name="LLD2_May_2026" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.designpatterns.adapter.*" />
+          <option name="PATTERN" value="org.example.designpatterns.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.designpatterns.decorator.Client" />
         <item itemvalue="Application.org.example.designpatterns.facade.Client" />
         <item itemvalue="Application.org.example.designpatterns.adapter.Client" />
         <item itemvalue="Application.org.example.designpatterns.factory.Client" />
         <item itemvalue="Application.org.example.designpatterns.prototype.Client" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +158,8 @@
       <option name="presentableId" value="Default" />
       <updated>1779355057989</updated>
       <workItem from="1779355059079" duration="2953000" />
-      <workItem from="1780069590892" duration="31734000" />
+      <workItem from="1780069590892" duration="34829000" />
+      <workItem from="1780930108988" duration="5834000" />
     </task>
     <servers />
   </component>
