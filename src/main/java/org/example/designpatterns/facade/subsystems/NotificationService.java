@@ -1,4 +1,4 @@
-package org.example.designpatterns.facade;
+package org.example.designpatterns.facade.subsystems;
 
 /**
  * NotificationService — Subsystem class for sending notifications.

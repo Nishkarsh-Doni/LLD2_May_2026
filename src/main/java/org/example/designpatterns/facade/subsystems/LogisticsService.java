@@ -1,4 +1,4 @@
-package org.example.designpatterns.facade;
+package org.example.designpatterns.facade.subsystems;
 
 /**
  * LogisticsService — Subsystem class for delivery scheduling.

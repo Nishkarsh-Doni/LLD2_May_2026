@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f051de5-425e-4326-a2ce-464134767a46" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/adapter/razorpay/RazorpayAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/adapter/razorpay/RazorpayAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/OrderFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/AnalyticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/subsystems/AnalyticsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/subsystems/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/LogisticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/subsystems/LogisticsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/subsystems/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/facade/subsystems/PaymentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +38,7 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="3E1ngemYB7WIXBte3igTITCDo0L" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -41,9 +47,6 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.org.example.designpatterns.adapter.Client.executor": "Run",
-    "Application.org.example.designpatterns.factory.Client.executor": "Run",
-    "Application.org.example.designpatterns.singleton.Client.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -63,7 +66,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/designpatterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.designpatterns.adapter.Client">
+  <component name="RunManager" selected="Application.org.example.designpatterns.facade.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.designpatterns.builder.Client" />
       <module name="LLD2_May_2026" />
@@ -83,6 +86,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.designpatterns.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.designpatterns.facade.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.designpatterns.facade.Client" />
+      <module name="LLD2_May_2026" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.designpatterns.facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,24 +132,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.designpatterns.singleton.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.designpatterns.singleton.Client" />
-      <module name="LLD2_May_2026" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.designpatterns.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.designpatterns.facade.Client" />
         <item itemvalue="Application.org.example.designpatterns.adapter.Client" />
         <item itemvalue="Application.org.example.designpatterns.factory.Client" />
-        <item itemvalue="Application.org.example.designpatterns.singleton.Client" />
         <item itemvalue="Application.org.example.designpatterns.prototype.Client" />
         <item itemvalue="Application.Client" />
       </list>
@@ -148,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1779355057989</updated>
       <workItem from="1779355059079" duration="2953000" />
-      <workItem from="1780069590892" duration="29487000" />
+      <workItem from="1780069590892" duration="31734000" />
     </task>
     <servers />
   </component>
