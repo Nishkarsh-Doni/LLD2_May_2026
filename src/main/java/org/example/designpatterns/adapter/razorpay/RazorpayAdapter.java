@@ -1,6 +1,7 @@
 package org.example.designpatterns.adapter.razorpay;
 
 
+import org.example.designpatterns.adapter.AccountType;
 import org.example.designpatterns.adapter.BankAPI;
 
 /**
@@ -21,21 +22,22 @@ public class RazorpayAdapter implements BankAPI {
 
     @Override
     public void addBankAccount(String accountNumber, String holderName) {
-
+        razorpayAPI.rzpAddAccount(accountNumber, holderName);
     }
 
     @Override
     public boolean pay(double amount, String account) {
-        return false;
+        String orderId = razorpayAPI.rzpCreateOrder(amount,"Rupees", account);
+        return orderId != null && razorpayAPI.rzpCapturePayment(orderId, amount);
     }
 
     @Override
     public double checkBalance(String account) {
-        return 0;
+        return razorpayAPI.rzpFetchBalance(account);
     }
 
     @Override
     public void transferFunds(String sourceAccount, String destinationAccount, double amount) {
-
+        razorpayAPI.rzpTransfer(sourceAccount, destinationAccount, amount, "Rupees");
     }
 }

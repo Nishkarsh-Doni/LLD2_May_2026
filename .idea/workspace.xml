@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f051de5-425e-4326-a2ce-464134767a46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/singleton/SingletonEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/singleton/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/singleton/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/adapter/razorpay/RazorpayAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/adapter/razorpay/RazorpayAdapter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.org.example.designpatterns.adapter.Client.executor": "Run",
+    "Application.org.example.designpatterns.factory.Client.executor": "Run",
     "Application.org.example.designpatterns.singleton.Client.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -62,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/designpatterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.designpatterns.singleton.Client">
+  <component name="RunManager" selected="Application.org.example.designpatterns.adapter.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.designpatterns.builder.Client" />
       <module name="LLD2_May_2026" />
@@ -130,9 +131,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.example.designpatterns.singleton.Client" />
         <item itemvalue="Application.org.example.designpatterns.adapter.Client" />
         <item itemvalue="Application.org.example.designpatterns.factory.Client" />
+        <item itemvalue="Application.org.example.designpatterns.singleton.Client" />
         <item itemvalue="Application.org.example.designpatterns.prototype.Client" />
         <item itemvalue="Application.Client" />
       </list>
