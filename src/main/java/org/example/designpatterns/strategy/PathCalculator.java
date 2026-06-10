@@ -22,3 +22,13 @@ public interface PathCalculator {
      */
     String findPath(String source, String destination);
 }
+
+/*
+Rainwater Trapping
+
+Brute force -> TC: O(n^2); SC: O(1)
+Optimal -> TC: O(n); SC: O(n)
+Most optimal -> O(n); SC: O(1)
+
+
+ */
