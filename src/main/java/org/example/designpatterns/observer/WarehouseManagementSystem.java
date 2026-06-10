@@ -18,6 +18,7 @@ public class WarehouseManagementSystem implements OrderPlacedSubscriber {
      */
     public WarehouseManagementSystem(Amazon amazon) {
         this.amazon = amazon;
+        this.amazon.registerOrderPlacedSubscriber(this);
     }
 
     @Override

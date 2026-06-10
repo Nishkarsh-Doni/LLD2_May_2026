@@ -18,6 +18,7 @@ public class EmailService implements OrderPlacedSubscriber {
      */
     public EmailService(Amazon amazon) {
         this.amazon = amazon;
+        this.amazon.registerOrderPlacedSubscriber(this);
     }
 
     @Override

@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f051de5-425e-4326-a2ce-464134767a46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/observer/Amazon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/observer/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/observer/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/observer/InventoryManagementSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/observer/InvoiceGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/observer/OrderPlacedSubscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/observer/WarehouseManagementSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/strategy/BikePathCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/strategy/CarPathCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/strategy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/strategy/GoogleMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/strategy/PathCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/strategy/PathCalculatorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/strategy/WalkPathCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/observer/Amazon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/observer/Amazon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/observer/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/observer/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/observer/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/observer/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/observer/InventoryManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/observer/InventoryManagementSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/observer/InvoiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/observer/InvoiceGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/observer/WarehouseManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/observer/WarehouseManagementSystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,13 +65,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/designpatterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.org.example.designpatterns.observer.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.designpatterns.strategy.Client" />
       <module name="LLD2_May_2026" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.designpatterns.strategy.*" />
+          <option name="PATTERN" value="org.example.designpatterns.strategy.rainwater.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.designpatterns.factory.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.designpatterns.factory.Client" />
+    <configuration name="org.example.designpatterns.observer.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.designpatterns.observer.Client" />
       <module name="LLD2_May_2026" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.designpatterns.factory.*" />
+          <option name="PATTERN" value="org.example.designpatterns.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.designpatterns.observer.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.org.example.designpatterns.decorator.Client" />
         <item itemvalue="Application.org.example.designpatterns.facade.Client" />
         <item itemvalue="Application.org.example.designpatterns.adapter.Client" />
-        <item itemvalue="Application.org.example.designpatterns.factory.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +151,7 @@
       <updated>1779355057989</updated>
       <workItem from="1779355059079" duration="2953000" />
       <workItem from="1780069590892" duration="34829000" />
-      <workItem from="1780930108988" duration="12221000" />
+      <workItem from="1780930108988" duration="14485000" />
     </task>
     <servers />
   </component>

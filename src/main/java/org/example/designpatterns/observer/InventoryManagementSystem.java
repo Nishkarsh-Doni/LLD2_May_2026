@@ -18,6 +18,7 @@ public class InventoryManagementSystem implements OrderPlacedSubscriber {
      */
     public InventoryManagementSystem(Amazon amazon) {
         this.amazon = amazon;
+        this.amazon.registerOrderPlacedSubscriber(this);
     }
 
     @Override

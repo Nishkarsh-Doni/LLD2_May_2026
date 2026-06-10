@@ -16,8 +16,30 @@ import java.util.List;
  * ✅ Open-Closed Principle: open for extension, closed for modification
  */
 public class Amazon {
-    public void orderPlaced(String orderId) {
 
+    private final List<OrderPlacedSubscriber> subscribers = new ArrayList<>();
+
+    // Register as subscriber
+    public void registerOrderPlacedSubscriber(OrderPlacedSubscriber subscriber) {
+        subscribers.add(subscriber);
+    }
+
+    // Unregister as subscriber
+    public void unregisterOrderPlacedSubscriber(OrderPlacedSubscriber subscriber) {
+        subscribers.remove(subscriber);
+    }
+
+    // place order and notify all subscribers
+    public void orderPlaced(String orderId) {
+        // algorithm to place order
+        // notify all subscriber services
+        for (OrderPlacedSubscriber subscriber: subscribers) {
+            subscriber.onOrderPlaced(orderId);
+        }
+    }
+
+    public int getSubscriberCount() {
+        return subscribers.size();
     }
 
 }

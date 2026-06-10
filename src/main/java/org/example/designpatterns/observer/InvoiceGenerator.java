@@ -19,6 +19,7 @@ public class InvoiceGenerator implements OrderPlacedSubscriber {
     public InvoiceGenerator(Amazon amazon) {
         this.amazon = amazon;
         // Self-registration: the subscriber registers itself with the publisher
+        amazon.registerOrderPlacedSubscriber(this);
     }
 
     @Override
